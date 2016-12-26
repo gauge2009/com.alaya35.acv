@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/com.alaya35.acv.iml" filepath="$PROJECT_DIR$/com.alaya35.acv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practiceTinydallab/practiceTinydallab.iml" filepath="$PROJECT_DIR$/practiceTinydallab/practiceTinydallab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tinydallab.iml" filepath="$PROJECT_DIR$/tinydallab.iml" />
+    </modules>
+  </component>
+</project>

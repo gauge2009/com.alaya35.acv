@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd" >
+<sqlMap>
+	<typeAlias type="org.tinygroup.dalpractice.dataobject.CustomDo" alias="custom" />
+	<resultMap id="customResult" class="custom">
+		<result column="id" property="id" jdbcType="INT" />
+		<result column="name" property="name" jdbcType="VARCHAR" />
+		<result column="age" property="age" jdbcType="INT" />
+	</resultMap>
+	<!-- 获得全查询列表 -->
+	<select id="queryAllCustoms" resultMap="customResult">
+		select * from custom
+    </select>
+	<!-- 根据id获得客户对象 -->
+	<select id="queryCustomById" resultMap="customResult">
+		select * from custom where
+		id=#value#
+    </select>
+	<!-- 新增客户对象 -->
+	<insert id="insertCustom" parameterClass="custom">
+		insert into custom (name,age) values (#name#,#age#)
+		<selectKey resultClass="int" keyProperty="id">
+			values identity_val_local()
+        </selectKey>
+	</insert>
+	<!-- 根据主键id删除客户对象 -->
+	<delete id="deleteCustomById">
+		delete from custom where id=#value#
+   </delete>
+	<!-- 更新客户对象 -->
+	<update id="updateCustom" parameterClass="custom">
+		update custom set
+		name=#name#,age=#age# where id=#id#
+   </update>
+</sqlMap>
