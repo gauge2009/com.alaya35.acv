@@ -6,14 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="com.alaya35.acv" />
         <module name="practiceTinydallab" />
+        <module name="promvc-framework" />
+        <module name="stage4" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com.alaya35.acv" target="1.5" />
       <module name="practiceTinydallab" target="1.5" />
       <module name="practise.tinydallab" target="1.5" />
+      <module name="promvc-framework" target="1.6" />
+      <module name="promvcframework" target="1.5" />
+      <module name="stage4" target="1.8" />
       <module name="tinydallab" target="1.5" />
     </bytecodeTargetLevel>
   </component>

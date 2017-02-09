@@ -136,7 +136,10 @@
 			<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
 				<property name="showSql" value="false" />
 				<property name="generateDdl" value="true" />
-				<property name="databasePlatform" value="org.hibernate.dialect.DerbyDialect" />
+				<!--derby-->
+				<!--<property name="databasePlatform" value="org.hibernate.dialect.DerbyDialect" />-->
+				<!--mysql-->
+				<property name="databasePlatform" value="org.hibernate.dialect.MySQLDialect" />
 			</bean>
 		</property>
 		<property name="loadTimeWeaver">

@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/com.alaya35.acv.iml" filepath="$PROJECT_DIR$/com.alaya35.acv.iml" />
       <module fileurl="file://$PROJECT_DIR$/practiceTinydallab/practiceTinydallab.iml" filepath="$PROJECT_DIR$/practiceTinydallab/practiceTinydallab.iml" />
-      <module fileurl="file://$PROJECT_DIR$/tinydallab.iml" filepath="$PROJECT_DIR$/tinydallab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/promvcframework/promvc-framework.iml" filepath="$PROJECT_DIR$/promvcframework/promvc-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/promvcframework.iml" filepath="$PROJECT_DIR$/promvcframework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stage4aop/stage4.iml" filepath="$PROJECT_DIR$/stage4aop/stage4.iml" />
     </modules>
   </component>
 </project>
